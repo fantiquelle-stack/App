@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Developer Website</title>
+  <meta name="description" content="Developer website template for app store / developer account registration" />
+  <style>
+    :root{--bg:#0b1020;--card:#121a33;--text:#e9eefc;--muted:#a9b4d0;--accent:#6ea8fe;--line:#22305c}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#111936 60%,#0b1020);color:var(--text);line-height:1.6}
+    .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+    .hero{padding:48px 28px;border:1px solid var(--line);border-radius:24px;background:rgba(18,26,51,.86);backdrop-filter:blur(8px)}
+    h1{margin:0 0 12px;font-size:clamp(32px,5vw,52px);line-height:1.1}
+    p{margin:0 0 16px;color:var(--muted);font-size:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+    .card{padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(7,12,28,.5)}
+    h2{margin:0 0 10px;font-size:22px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .footer{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(110,168,254,.14);color:var(--accent);font-size:14px;margin-bottom:14px}
+    ul{margin:0;padding-left:20px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Developer / App Studio</div>
+      <h1>Your Name or Project Name</h1>
+      <p>Independent developer building mobile and desktop software, AI tools, and practical apps.</p>
+      <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>About</h2>
+        <p>I create software products with a focus on usability, performance, and reliable engineering.</p>
+      </article>
+      <article class="card">
+        <h2>Projects</h2>
+        <ul>
+          <li>Android apps</li>
+          <li>AI assistants</li>
+          <li>Productivity tools</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Privacy Policy</h2>
+        <p>Your app privacy policy can be placed here or linked from this site.</p>
+      </article>
+    </section>
+
+    <div class="footer">© 2026 Your Name. All rights reserved.</div>
+  </main>
+</body>
+</html>
